@@ -24,8 +24,8 @@ class ToolButton(QToolButton):
         palette.setColor(QPalette.Button, QColor(74, 108, 134))
         self.setPalette(palette)
 
-        self.setMinimumSize(QSize(30, 30))
-        self.setIconSize(QSize(18, 18))
+        self.setMinimumSize(QSize(48, 48))
+        self.setIconSize(QSize(48, 48))
 
         self.setCheckable(True)
         self.setAutoRaise(True)
